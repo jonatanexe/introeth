@@ -27,7 +27,7 @@ async function main() {
   // const ownable = await Ownable.deploy(signer.address);
   
   // Para probar el require owner
-  const ownable = await Ownable.deploy(lito.address);
+  const ownable = await Ownable.deploy(martin.address);
 
   await ownable.deployed();
 
